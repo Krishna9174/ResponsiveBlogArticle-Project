@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  padding-top:10px;
+  font-family: var(--font1);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  /* height: 74px;
+   background-color: red; */ 
+}
+.nav-left {
+  font-size: 36px;
+  display: flex;
+}
+.nav-left span{
+ margin-bottom: 16px;
+ font-size:40px;
+}
+.nav-left ul {
+    align-items: center;
+    display: flex;
+    margin: 0 77px;
+    font-size: 22px;
+}
+.nav-left ul li a {
+    text-decoration:none ;
+    color:black;
+  }
+  .nav-left ul li a:hover{
+    color:blueviolet;
+  }
+.nav-left ul li {
+    font-family: var(--font2);
+    margin: 0 14px;
+  list-style: none;
+}
+
+.content-left{
+  flex-direction: column;
+  display:flex;
+  /* align-items: center; */
+  justify-content: center;
+  font-family:var(--font1);
+  padding-left: 41px;
+  z-index: 1;
+  
+}
+.content-right{
+  align-items: center;
+  justify-content: center;
+  font-family:var(--font1);
+ 
+  display: flex;
+}
+.content-right img {
+  border: 0px solid black;
+  border-radius: 34px;
+  height: 195px;
+}
+ 
+
+.content {
+ 
+  display:flex;
+  height: 100%;
+ /*  background-color: rgb(49 105 36);  */
+  border-radius: 18px;
+  padding: 10px;
+  display:flex;
+  position:relative;
+}
+
+.content::after {
+  content: "";
+  background-image: url(../img/backg1.svg.jpg);
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  width: 98% ;
+  height: inherit;
+  opacity: 0.21;
+}
+.my-2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.home-articles{
+  padding-left: 10px;
+  padding-top: 8px; 
+ background-color: #005fff1f; 
+ position:relative;
+}
+.year-box{
+  right: 111px;
+   top: 55px;
+  position: absolute;
+  width: 198px;
+  height: 194px;
+ /* background-color: red; */
+}
+.year-box div{
+  padding:5px;
+}
+
+.home-article{
+  margin: -18px;
+  padding: 28px;
+  padding-left: 63px;
+  display: flex;
+}
+.home-article img {
+  width:300px;
+}
+.home-article-content{
+  align-self: center;
+  padding:10px;
+}
+.home-article-content a{
+text-decoration: none;
+color:blue;
+
+}
+.footer {
+  margin-top: 33px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color:white;
+  background-color: #a52a94;
+}
+.footer a{
+  color:white;
+}
